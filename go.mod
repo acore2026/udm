@@ -4,7 +4,7 @@ go 1.25.5
 
 require (
 	github.com/acore2026/openapi v1.2.4
-	github.com/acore2026/util v1.3.2-0.20260204030658-79d56f347175
+	github.com/acore2026/util v1.3.2
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d
 	github.com/gin-gonic/gin v1.10.0
 	github.com/google/uuid v1.6.0
