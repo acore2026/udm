@@ -74,17 +74,3 @@ require (
 	google.golang.org/protobuf v1.36.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace (
-	github.com/acore2026/aper => /tmp/acore-repos/aper
-	github.com/acore2026/chf => /tmp/acore-repos/chf
-	github.com/acore2026/go-gtp5gnl => /tmp/acore-repos/go-gtp5gnl
-	github.com/acore2026/ike => /tmp/acore-repos/ike
-	github.com/acore2026/nas => /tmp/acore-repos/nas
-	github.com/acore2026/ngap => /tmp/acore-repos/ngap
-	github.com/acore2026/openapi => /tmp/acore-repos/openapi
-	github.com/acore2026/pfcp => /tmp/acore-repos/pfcp
-	github.com/acore2026/sctp => /tmp/acore-repos/sctp
-	github.com/acore2026/tlv => /tmp/acore-repos/tlv
-	github.com/acore2026/util => /tmp/acore-repos/util
-)
