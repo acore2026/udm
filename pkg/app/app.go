@@ -1,8 +1,8 @@
 package app
 
 import (
-	udm_context "github.com/free5gc/udm/internal/context"
-	"github.com/free5gc/udm/pkg/factory"
+	udm_context "github.com/acore2026/udm/internal/context"
+	"github.com/acore2026/udm/pkg/factory"
 )
 
 type App interface {

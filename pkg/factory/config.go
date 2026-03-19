@@ -13,8 +13,8 @@ import (
 	"github.com/asaskevich/govalidator"
 	"github.com/google/uuid"
 
-	"github.com/free5gc/udm/internal/logger"
-	"github.com/free5gc/udm/pkg/suci"
+	"github.com/acore2026/udm/internal/logger"
+	"github.com/acore2026/udm/pkg/suci"
 )
 
 const (

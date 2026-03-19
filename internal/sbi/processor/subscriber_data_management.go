@@ -8,13 +8,13 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 
-	"github.com/free5gc/openapi"
-	"github.com/free5gc/openapi/models"
-	"github.com/free5gc/openapi/udm/SubscriberDataManagement"
-	Nudr_DataRepository "github.com/free5gc/openapi/udr/DataRepository"
-	udm_context "github.com/free5gc/udm/internal/context"
-	"github.com/free5gc/udm/internal/logger"
-	"github.com/free5gc/util/metrics/sbi"
+	"github.com/acore2026/openapi"
+	"github.com/acore2026/openapi/models"
+	"github.com/acore2026/openapi/udm/SubscriberDataManagement"
+	Nudr_DataRepository "github.com/acore2026/openapi/udr/DataRepository"
+	udm_context "github.com/acore2026/udm/internal/context"
+	"github.com/acore2026/udm/internal/logger"
+	"github.com/acore2026/util/metrics/sbi"
 )
 
 func (p *Processor) GetAmDataProcedure(c *gin.Context, supi string, plmnID string, supportedFeatures string) {

@@ -10,11 +10,11 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/free5gc/udm/internal/logger"
-	"github.com/free5gc/udm/pkg/factory"
-	"github.com/free5gc/udm/pkg/service"
-	logger_util "github.com/free5gc/util/logger"
-	"github.com/free5gc/util/version"
+	"github.com/acore2026/udm/internal/logger"
+	"github.com/acore2026/udm/pkg/factory"
+	"github.com/acore2026/udm/pkg/service"
+	logger_util "github.com/acore2026/util/logger"
+	"github.com/acore2026/util/version"
 )
 
 func main() {

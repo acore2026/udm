@@ -6,12 +6,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/free5gc/openapi"
-	"github.com/free5gc/openapi/models"
-	Nudr_DataRepository "github.com/free5gc/openapi/udr/DataRepository"
-	udm_context "github.com/free5gc/udm/internal/context"
-	"github.com/free5gc/udm/internal/logger"
-	"github.com/free5gc/util/metrics/sbi"
+	"github.com/acore2026/openapi"
+	"github.com/acore2026/openapi/models"
+	Nudr_DataRepository "github.com/acore2026/openapi/udr/DataRepository"
+	udm_context "github.com/acore2026/udm/internal/context"
+	"github.com/acore2026/udm/internal/logger"
+	"github.com/acore2026/util/metrics/sbi"
 )
 
 // ue_context_managemanet_service

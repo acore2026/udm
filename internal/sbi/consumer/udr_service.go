@@ -5,10 +5,10 @@ import (
 	"strings"
 	"sync"
 
-	Nudr_DataRepository "github.com/free5gc/openapi/udr/DataRepository"
-	udm_context "github.com/free5gc/udm/internal/context"
-	"github.com/free5gc/udm/internal/logger"
-	sbi_metrics "github.com/free5gc/util/metrics/sbi"
+	Nudr_DataRepository "github.com/acore2026/openapi/udr/DataRepository"
+	udm_context "github.com/acore2026/udm/internal/context"
+	"github.com/acore2026/udm/internal/logger"
+	sbi_metrics "github.com/acore2026/util/metrics/sbi"
 )
 
 type nudrService struct {

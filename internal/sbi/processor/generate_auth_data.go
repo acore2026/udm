@@ -13,15 +13,15 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/free5gc/openapi"
-	"github.com/free5gc/openapi/models"
-	Nudr_DataRepository "github.com/free5gc/openapi/udr/DataRepository"
-	"github.com/free5gc/udm/internal/logger"
-	"github.com/free5gc/udm/internal/util"
-	"github.com/free5gc/udm/pkg/suci"
-	"github.com/free5gc/util/metrics/sbi"
-	"github.com/free5gc/util/milenage"
-	"github.com/free5gc/util/ueauth"
+	"github.com/acore2026/openapi"
+	"github.com/acore2026/openapi/models"
+	Nudr_DataRepository "github.com/acore2026/openapi/udr/DataRepository"
+	"github.com/acore2026/udm/internal/logger"
+	"github.com/acore2026/udm/internal/util"
+	"github.com/acore2026/udm/pkg/suci"
+	"github.com/acore2026/util/metrics/sbi"
+	"github.com/acore2026/util/milenage"
+	"github.com/acore2026/util/ueauth"
 )
 
 const (

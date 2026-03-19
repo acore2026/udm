@@ -3,7 +3,7 @@ package util
 import (
 	"encoding/hex"
 
-	"github.com/free5gc/util/milenage"
+	"github.com/acore2026/util/milenage"
 )
 
 func MilenageF1(opc, k, rand, sqn, amf []byte, macA, macS []byte) error {

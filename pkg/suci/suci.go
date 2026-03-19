@@ -16,7 +16,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/free5gc/udm/internal/logger"
+	"github.com/acore2026/udm/internal/logger"
 )
 
 // suci-0(SUPI type: IMSI)-mcc-mnc-routingIndicator-protectionScheme-homeNetworkPublicKeyID-schemeOutput.

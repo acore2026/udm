@@ -9,13 +9,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/free5gc/openapi/models"
-	Nnrf_NFDiscovery "github.com/free5gc/openapi/nrf/NFDiscovery"
-	Nnrf_NFManagement "github.com/free5gc/openapi/nrf/NFManagement"
-	udm_context "github.com/free5gc/udm/internal/context"
-	"github.com/free5gc/udm/internal/logger"
-	"github.com/free5gc/udm/internal/util"
-	sbi_metrics "github.com/free5gc/util/metrics/sbi"
+	"github.com/acore2026/openapi/models"
+	Nnrf_NFDiscovery "github.com/acore2026/openapi/nrf/NFDiscovery"
+	Nnrf_NFManagement "github.com/acore2026/openapi/nrf/NFManagement"
+	udm_context "github.com/acore2026/udm/internal/context"
+	"github.com/acore2026/udm/internal/logger"
+	"github.com/acore2026/udm/internal/util"
+	sbi_metrics "github.com/acore2026/util/metrics/sbi"
 )
 
 type nnrfService struct {

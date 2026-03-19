@@ -12,9 +12,9 @@ package service
 import (
 	reflect "reflect"
 
-	context "github.com/free5gc/udm/internal/context"
-	consumer "github.com/free5gc/udm/internal/sbi/consumer"
-	factory "github.com/free5gc/udm/pkg/factory"
+	context "github.com/acore2026/udm/internal/context"
+	consumer "github.com/acore2026/udm/internal/sbi/consumer"
+	factory "github.com/acore2026/udm/pkg/factory"
 	gomock "go.uber.org/mock/gomock"
 )
 

@@ -10,17 +10,17 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
 
-	"github.com/free5gc/openapi"
-	"github.com/free5gc/openapi/nrf/NFManagement"
-	udm_context "github.com/free5gc/udm/internal/context"
-	"github.com/free5gc/udm/internal/logger"
-	"github.com/free5gc/udm/internal/sbi"
-	"github.com/free5gc/udm/internal/sbi/consumer"
-	"github.com/free5gc/udm/internal/sbi/processor"
-	"github.com/free5gc/udm/pkg/app"
-	"github.com/free5gc/udm/pkg/factory"
-	"github.com/free5gc/util/metrics"
-	"github.com/free5gc/util/metrics/utils"
+	"github.com/acore2026/openapi"
+	"github.com/acore2026/openapi/nrf/NFManagement"
+	udm_context "github.com/acore2026/udm/internal/context"
+	"github.com/acore2026/udm/internal/logger"
+	"github.com/acore2026/udm/internal/sbi"
+	"github.com/acore2026/udm/internal/sbi/consumer"
+	"github.com/acore2026/udm/internal/sbi/processor"
+	"github.com/acore2026/udm/pkg/app"
+	"github.com/acore2026/udm/pkg/factory"
+	"github.com/acore2026/util/metrics"
+	"github.com/acore2026/util/metrics/utils"
 )
 
 var _ app.App = &UdmApp{}

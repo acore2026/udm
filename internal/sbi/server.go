@@ -12,16 +12,16 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 
-	"github.com/free5gc/openapi/models"
-	"github.com/free5gc/udm/internal/logger"
-	"github.com/free5gc/udm/internal/sbi/consumer"
-	"github.com/free5gc/udm/internal/sbi/processor"
-	"github.com/free5gc/udm/internal/util"
-	"github.com/free5gc/udm/pkg/app"
-	"github.com/free5gc/udm/pkg/factory"
-	"github.com/free5gc/util/httpwrapper"
-	logger_util "github.com/free5gc/util/logger"
-	"github.com/free5gc/util/metrics"
+	"github.com/acore2026/openapi/models"
+	"github.com/acore2026/udm/internal/logger"
+	"github.com/acore2026/udm/internal/sbi/consumer"
+	"github.com/acore2026/udm/internal/sbi/processor"
+	"github.com/acore2026/udm/internal/util"
+	"github.com/acore2026/udm/pkg/app"
+	"github.com/acore2026/udm/pkg/factory"
+	"github.com/acore2026/util/httpwrapper"
+	logger_util "github.com/acore2026/util/logger"
+	"github.com/acore2026/util/metrics"
 )
 
 type ServerUdm interface {

@@ -5,10 +5,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/free5gc/openapi"
-	"github.com/free5gc/openapi/models"
-	Nudr_DataRepository "github.com/free5gc/openapi/udr/DataRepository"
-	"github.com/free5gc/util/metrics/sbi"
+	"github.com/acore2026/openapi"
+	"github.com/acore2026/openapi/models"
+	Nudr_DataRepository "github.com/acore2026/openapi/udr/DataRepository"
+	"github.com/acore2026/util/metrics/sbi"
 )
 
 func (p *Processor) UpdateProcedure(c *gin.Context,

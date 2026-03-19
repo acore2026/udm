@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/free5gc/openapi"
-	"github.com/free5gc/openapi/models"
-	udm_context "github.com/free5gc/udm/internal/context"
-	"github.com/free5gc/udm/internal/sbi/consumer"
-	mockapp "github.com/free5gc/udm/pkg/mockapp"
+	"github.com/acore2026/openapi"
+	"github.com/acore2026/openapi/models"
+	udm_context "github.com/acore2026/udm/internal/context"
+	"github.com/acore2026/udm/internal/sbi/consumer"
+	mockapp "github.com/acore2026/udm/pkg/mockapp"
 )
 
 func TestGenerateAuthDataProcedure(t *testing.T) {

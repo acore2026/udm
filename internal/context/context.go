@@ -9,14 +9,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/free5gc/openapi"
-	"github.com/free5gc/openapi/models"
-	Nnrf_NFDiscovery "github.com/free5gc/openapi/nrf/NFDiscovery"
-	"github.com/free5gc/openapi/oauth"
-	"github.com/free5gc/udm/internal/logger"
-	"github.com/free5gc/udm/pkg/factory"
-	"github.com/free5gc/udm/pkg/suci"
-	"github.com/free5gc/util/idgenerator"
+	"github.com/acore2026/openapi"
+	"github.com/acore2026/openapi/models"
+	Nnrf_NFDiscovery "github.com/acore2026/openapi/nrf/NFDiscovery"
+	"github.com/acore2026/openapi/oauth"
+	"github.com/acore2026/udm/internal/logger"
+	"github.com/acore2026/udm/pkg/factory"
+	"github.com/acore2026/udm/pkg/suci"
+	"github.com/acore2026/util/idgenerator"
 )
 
 var udmContext = UDMContext{}
