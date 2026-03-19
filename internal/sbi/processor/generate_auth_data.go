@@ -42,7 +42,7 @@ func (p *Processor) aucSQN(opc, k, auts, rand []byte) ([]byte, []byte) {
 	// This function internally:
 	// 1. Uses AK* (f5*) to de-conceal SQNms from AUTS
 	// 2. Computes MAC-S with AMF=0x0000 and verifies it
-	SQNms, _, err := milenage.ValidateAUTS(opc, k, rand, auts)
+	SQNms, err := milenage.ValidateAUTS(opc, k, rand, auts)
 	if err != nil {
 		logger.UeauLog.Errorln("aucSQN ValidateAUTS err:", err)
 		return nil, nil
